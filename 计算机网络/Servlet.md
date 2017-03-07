@@ -1,0 +1,5 @@
+# Servlet
+
+> Servlet是运行在Web服务器的Java小程序。Servlet可以获取并针对Web客户端的请求作出响应。一般情况下，通过HTTP，即超文本传输协议，进行传输通信。
+
+所以，Servlet是Web服务器核心工作的抽象。Servlet规范是这样说的: Servlet是基于Java技术的Web组件，容器托管的，用于生产动态内容。它也是基于平台无关的Java类格式，被编译为平台无关的字节码，可以被基于Java技术的web server动态加载并执行。这里容器有时候也被称为servlet引擎。
