@@ -20,7 +20,9 @@ Java2以前，Java就提供了特设类。比如：Dictionary,Vector,Stack和Pro
 
 除了集合，该框架也定义了几个Map接口和类。Map里存储的是键-值对。尽管Map不是collections，但是他们完全整合在集合中。
 
-![java-coll](E:\写作\Learning-notes\Java学习笔记\容器\java-coll.png)
+![1](C:\Users\1\Desktop\1.png
+
+
 
 
 
@@ -34,5 +36,13 @@ Java2以前，Java就提供了特设类。比如：Dictionary,Vector,Stack和Pro
 | 4    | SortedSet; 继承于Set保存有序的集合。                |
 | 5    | Map; 将唯一的键映射到值。                          |
 | 6    | Map.Entry; 描述在一个Map中的一个元素(键/值对)。是一个Map的内部类。 |
-| 7    | SortedMap; 继承于Map，使Key保持在                |
+| 7    | SortedMap; 继承于Map，使Key保持在 升序的排列。         |
+| 8    | Enumeration；这是一个传统的接口和定义的方法，通过它可以枚举(一次获得一个)对象集合中的元素。这个传统接口已被迭代器取代。 |
 
+
+
+Set和List的区别
+
+1. Set接口实例存储的是无序的、不重复的数据。List接口实例存储的是有序的，可以重复的元素。
+2. Set效率低下，删除和插入效率高，插入和删除不会引起元素位置改变(实现类有HashSet，TreeSet)
+3. List和数组类似，可以动态增长，根据实际存储的数据的长度自动增长List的长度。查找元素效率高，插入效率低，因为会引起其他元素位置改变<实现类有ArrayList，LinkedList,Vector>
