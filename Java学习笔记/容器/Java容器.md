@@ -20,7 +20,7 @@ Java2以前，Java就提供了特设类。比如：Dictionary,Vector,Stack和Pro
 
 除了集合，该框架也定义了几个Map接口和类。Map里存储的是键-值对。尽管Map不是collections，但是他们完全整合在集合中。
 
-![1](C:\Users\1\Desktop\1.png
+![1](E:\写作\Learning-notes\Java学习笔记\容器\1.png)
 
 
 
